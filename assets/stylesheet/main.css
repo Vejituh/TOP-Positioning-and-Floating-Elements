@@ -183,3 +183,16 @@ figcaption p span {
   border-radius: 100%;
   background-color: #eee;
 }
+
+/*** Article ***/
+article {
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: space-between;
+}
+article p {
+  margin: 5px auto;
+  max-width: 40vw;
+  line-height: 1.5625rem;
+  font-size: 1.125rem;
+}
