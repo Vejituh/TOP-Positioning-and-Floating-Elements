@@ -151,3 +151,35 @@ figcaption p span {
   color: #888;
   margin-left: 7px;
 }
+
+/*** Social ***/
+.social-links {
+  text-align: left;
+  max-width: 40vw;
+  margin: 50px auto;
+}
+.social-links h4 a{
+  text-decoration: underline;
+}
+.social-links div {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.social-links div p {
+  font-weight: 500;
+  font-size: small;
+}
+.social-links div ul li {
+  width: 15px;
+  height: 15px;
+  padding: 5px;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0 3px;
+}
+.social {
+  border: 1px solid #eee;
+  border-radius: 100%;
+  background-color: #eee;
+}
