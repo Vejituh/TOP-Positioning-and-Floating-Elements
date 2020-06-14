@@ -189,10 +189,63 @@ article {
   display: flex;
   flex-flow: column nowrap;
   align-content: space-between;
+  margin: 5px auto;
+  max-width: 25vw;
 }
 article p {
-  margin: 5px auto;
-  max-width: 40vw;
+  margin: 5px;
+  text-align: left;
   line-height: 1.5625rem;
   font-size: 1.125rem;
+}
+.article-container {
+  width: 35vw;
+  margin: auto;
+}
+.article-container h3 {
+  font-weight: bolder;
+  margin: 5px 0;
+}
+.article-container p {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+}
+.article-container div{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.article-container div div {
+  display: block;
+  height: 300px;
+  width: 35vw;
+  margin: 10px 0;
+}
+.article-container div div img {
+  width: 100%;
+}
+.article-container:first-child div p {
+  width: 23%;
+  margin-top: -180px;
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 300;
+}
+.article-container div p strong {
+  font-weight: bold;
+}
+.article-container div:nth-of-type(2) p {
+  width: 23%;
+  margin: 90px 0;
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 300;
+}
+.article-footer::before {
+    width: 60px;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+    margin: 0px 0px 13px;
 }
